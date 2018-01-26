@@ -1,0 +1,21 @@
+Description
+
+Let us write a program to compute dense ranking
+Use NYSE end of day stock data
+This is example for groupByKey as well as functional programming using scala
+Problem Statement
+
+Use sbt with Eclipse or intellij to develop this
+Get top N stocks by volume for each day or month
+Use the scala interpreter and preview the data after each step using Spark APIs
+Develop the program using sbt and eclipse or intellij
+Develop topNStocks function - function should take 2 parameters
+First Parameter - Tuple of date or month and then list of stocks for that date or month
+Second Parameter - topN
+Function should sort data in descending order and return top N stocks
+If there are more than N stocks in topN print all stocks (dense rank)
+Compile the jar, ship it and run it on the lab
+Output format - Date or month, Stock Name, Volume (all 3 fields should be delimited by \t)
+Determine number of executors used to run
+Determine number of executor tasks used to run
+Understand DAG for each stage
